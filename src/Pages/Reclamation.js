@@ -257,7 +257,7 @@ function Example(props) {
   return (
     <>
       <Button variant="secondary" className="btn-lg" onClick={handleShow}>
-        Historique
+        Liste des réclamations
       </Button>
       <Modal
       id="modal"
