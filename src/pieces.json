@@ -1,0 +1,48 @@
+{
+    "pieces": [
+      {
+        "id": 3,
+        "name": "Filtres HEPA",
+        "price": 29.99,
+        "category": "Filtres",
+        "image":"./images/Filtres.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Tubulures d’aspiration",
+        "price": 11.99,
+        "category": "Tubulures et tuyaux",
+        "image":"./images/Tubulures et tuyaux.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Batterie externe",
+        "price": 39.99,
+        "category": "Batteries",
+        "image":"./images/Batteries.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Capteur de température",
+        "price": 22.99,
+        "category": "Capteurs",
+        "image":"./images/Capteurs.PNG"
+      },
+      {
+        "id": 19,
+        "name": "Valve d’inhalation/exhalation",
+        "price": 7.99,
+        "category": "Valves et membranes",
+        "image":"./images/Valves et membranes.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Connecteurs et adaptateurs",
+        "price": 3.99,
+        "category": "Masques faciaux et circuits respiratoires",
+        "image":"./images/Masques faciaux et circuits respiratoires.jpg"
+      }
+      
+    ]
+  }
+  

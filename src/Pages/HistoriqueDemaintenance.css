@@ -1,0 +1,13 @@
+input[type=checkbox] {
+    margin-left: 10px;
+}
+
+.g {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bigger {
+    width: 1000px;
+}

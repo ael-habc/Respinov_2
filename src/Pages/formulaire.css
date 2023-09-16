@@ -1,0 +1,20 @@
+#formulaire {
+    padding: 50px;
+}
+#formulaire p{
+    font-weight: bolder;
+}
+p {
+    width: 90%;
+}
+.form-check, #textAreaExample{
+    margin-left: 40px;
+}
+#textAreaExample {
+    width: 80%;
+}
+#btnx {
+    display: block;
+    margin: auto;
+    width: 40%;
+}

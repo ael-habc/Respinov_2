@@ -1,0 +1,94 @@
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-image: url("https://www.mindray.com/content/dam/xpace/en/products-solutions/products/anesthesia/a-series/a7/p3-s1@pc.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  aspect-ratio: 2/1;
+  margin-top: -30px;
+}
+
+.header_title {
+  background-color: #898d98;
+  opacity: 55%;
+  padding-left: 0.5%;
+  padding-right: 1%;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  font-size: 64px;
+  font-weight: 700;
+}
+.header_text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #898d98;
+}
+#header_button {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  aspect-ratio: 2.5/1;
+  width: 9rem;
+}
+hr {
+  margin: 0 50px;
+  color: #898d98;
+  margin-bottom: 50px;
+}
+.main {
+  display: flex;
+  margin: 0 50px;
+  gap: 30px;
+  font-size: 14px;
+  line-height: 25px;
+}
+.featured_product {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  width: 100%;
+}
+.featured_product p {
+  font-size: 20px;
+}
+.featured_product_list {
+  padding: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  gap: 50px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px;
+}
+
+.footer_menu a {
+  color: #898d98;
+  font-size: 14px;
+  font-weight: 600;
+}
+h3 {
+  font-weight: 600;
+}

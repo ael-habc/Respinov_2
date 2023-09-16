@@ -1,0 +1,124 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Dôme de clapet anti-retour",
+        "image": "./images/Catalogue_des_pièces_de_rechange/0.jpg",
+        "category":  "WATO EX-35"
+      },
+      {
+        "id": 2,
+        "name": "Dôme à soufflet",
+        "image": "./images/Catalogue_des_pièces_de_rechange/1.jpg",
+        "price": 29.99,
+        "category": "WATO EX-35"
+      },
+      {
+        "id": 3,
+        "name": "Manomètre des voies respiratoires",
+        "image": "./images/Catalogue_des_pièces_de_rechange/2.jpg",
+        "price": 14.95,
+        "category": "WATO EX-35"
+      },
+      {
+        "id": 4,
+        "name": " Assemblage de Valve APL",
+        "image": "./images/Catalogue_des_pièces_de_rechange/3.jpg",
+        "price": 24.99,
+        "category":  "WATO EX-35"
+      },
+      {
+        "id": 5,
+        "name": "Capteur d’O2",
+        "image": "./images/Catalogue_des_pièces_de_rechange/4.jpg",
+        "price": 17.50,
+        "category": "WATO EX-35"
+      },
+      {
+        "id": 6,
+        "name": "Bouton de chasse (Flush) d’O2",
+        "image": "./images/Catalogue_des_pièces_de_rechange/5.jpg",
+        "price": 12.95,
+        "category": "WATO EX-35"
+      },
+      {
+        "id": 7 ,
+        "name": "Assemblage de contrôle d’aspiration",
+        "image": "./images/Catalogue_des_pièces_de_rechange/6.jpg",
+        "price": 15.99,
+        "category":  "WATO EX-65 Pro"
+      },
+      {
+        "id": 8,
+        "name": "Kit LCD",
+        "image": "./images/Catalogue_des_pièces_de_rechange/7.jpg",
+        "price": 34.99,
+        "category": "WATO EX-65 Pro"
+      },
+      {
+        "id": 9,
+        "name": "PAssemblage de bras de sac (BAG Arm)",
+        "image": "./images/Catalogue_des_pièces_de_rechange/8.jpg",
+        "price": 11.95,
+        "category": "WATO EX-65 Pro"
+      },
+      {
+        "id": 10,
+        "name": "Assemblage pré-emballé",
+        "image": "./images/Catalogue_des_pièces_de_rechange/9.jpg",
+        "price": 19.99,
+        "category":  "WATO EX-65 Pro"
+      },
+      {
+        "id": 11,
+        "name": "Assemblage de clapet anti-retour",
+        "image": "./images/Catalogue_des_pièces_de_rechange/10.jpg",
+        "price": 39.99,
+        "category": "WATO EX-65 Pro"
+      },
+      {
+        "id": 12,
+        "name": "Module de câble de capteur d’O2",
+        "image": "./images/Catalogue_des_pièces_de_rechange/11.jpg",
+        "price": 14.95,
+        "category": "A9"
+      },
+      {
+        "id": 13,
+        "name": "Débitmètre d’oxygène de secours",
+        "image": "./images/Catalogue_des_pièces_de_rechange/12.jpg",
+        "price": 24.99,
+        "category":  "A9"
+      },
+      {
+        "id": 14,
+        "name": "Capteur de débit",
+        "image": "./images/Catalogue_des_pièces_de_rechange/13.jpg",
+        "price": 17.50,
+        "category": "A9"
+      },
+      {
+        "id": 15,
+        "name": "Capteur d’O2",
+        "image": "./images/Catalogue_des_pièces_de_rechange/14.jpg",
+        "price": 12.95,
+        "category": "A9"
+      },
+
+      {
+        "id": 16,
+        "name": "ByPass CO2",
+        "image": "./images/Catalogue_des_pièces_de_rechange/15.jpg",
+        "price": 15.99,
+        "category":  "A9"
+      },
+      {
+        "id": 17,
+        "name": "Echangeur de volume",
+        "image": "./images/Catalogue_des_pièces_de_rechange/16.jpg",
+        "price": 34.99,
+        "category": "A9"
+      }
+    ]
+  }
+  
