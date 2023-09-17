@@ -22,7 +22,7 @@ export default function Home() {
       <div className="content">
         <h1>RESPINNOV</h1>
         <h3>
-          Un souffle d'excellence technologique pour une éxperience de
+          Un souffle d'excellence technologique pour une expérience de
           respirateur d'anesthésie repensée
         </h3>
       </div>
@@ -67,7 +67,7 @@ export default function Home() {
         <div className="footer_menu">
           <h1>Menu</h1>
           <NavLink to="/product" className="footer_menu_item">
-            Pieces de rechange
+            Piéces de rechange
           </NavLink>
           <NavLink to="/about" className="footer_menu_item">
             A propos

@@ -208,7 +208,7 @@ export default function Reclamation() {
       </select>
       <br />
       <label htmlFor="basic-url" className="form-label">
-        Piece jointe (optionnel)
+      Pièce jointe (optionnel)
       </label>
       <div className="input-group mb-3">
         <input
@@ -275,7 +275,7 @@ function Example(props) {
           <Table striped bordered hover>
             <thead>
               <tr>
-                <th>Numere de reclamation</th>
+                <th>Numéro de reclamation</th>
                 <th>ID responsable</th>
                 <th>Symptômes observés</th>
                 <th>Modèle</th>
@@ -299,7 +299,7 @@ function Example(props) {
               <tr>
                 <td>2</td>
                 <td>AliTazi-23</td>
-                <td>Autre : Alarmes non fonctionnelles</td>
+                <td>Alarmes non fonctionnelles</td>
                 <td>WATO EX-65 Pro</td>
                 <td>ARZF-0087</td>
                 <td>26/08/2023</td>

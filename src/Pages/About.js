@@ -46,7 +46,7 @@ export default function About() {
         <div className="footer_menu">
           <h1>Menu</h1>
           <NavLink to="/product" className="footer_menu_item">
-            Pieces de rechange
+            Piéces de rechange
           </NavLink>
           <NavLink to="/about" className="footer_menu_item">
             A Propos

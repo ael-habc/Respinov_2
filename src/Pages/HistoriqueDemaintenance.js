@@ -154,7 +154,7 @@ export default function HistoriqueDemaintenance() {
                 <th>Durée</th>
                 <th>Lieu de l'intervention</th>
                 <th>Cocher si OK</th>
-                <th>supprimer</th>
+                <th>Supprimer</th>
               </tr>
             </thead>
             <tbody>
@@ -207,7 +207,7 @@ export default function HistoriqueDemaintenance() {
                 <th>Durée</th>
                 <th>Résultats/Observations</th>
                 <th>Lieu de l'intervention</th>
-                <th>supprimer</th>
+                <th>Supprimer</th>
               </tr>
             </thead>
             <tbody>
