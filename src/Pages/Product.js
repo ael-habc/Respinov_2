@@ -54,11 +54,11 @@ export default function Products() {
       <ButtonGroup toggle>
         <Button primary active as="label" onClick={() => setToggle(true)}>
           <Radio autoComplete="off" />
-          Pieces de rechange
+          Pièces de rechange
         </Button>
         <Button secondary as="label" onClick={() => setToggle(false)}>
           <Radio autoComplete="off" />
-          Commande des Pieces de rechange
+          Commande des Pièces de rechange
         </Button>
       </ButtonGroup>
       {toggle ? (
@@ -72,7 +72,7 @@ export default function Products() {
                 onClick={() => fillterData(data, "all")}
               >
                 <Radio autoComplete="off" />
-                All Product
+                Tous les produits
               </Button>
               <Button
                 secondary

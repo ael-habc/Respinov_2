@@ -104,7 +104,7 @@ export default function Reclamation() {
         required
       />
       <label htmlFor="exampleFormControlTextarea1" className="form-label">
-        Symptomes Observes
+        Symptômes observés
       </label>
       <select
         className="form-select"
@@ -150,7 +150,7 @@ export default function Reclamation() {
       </div>
       <br />
       <label htmlFor="basic-url" className="form-label">
-        Modele
+        Modèle
       </label>
       <div className="input-group mb-3">
         <input
@@ -242,7 +242,7 @@ export default function Reclamation() {
           className="btn btn-success btn-lg"
           onClick={() => hundleSubmit()}
         >
-          confirmer
+          Confirmer
         </button>
       </div>
     </div>
@@ -260,8 +260,8 @@ function Example(props) {
         Liste des réclamations
       </Button>
       <Modal
-      id="modal"
-      size="lg"
+        id="modal"
+        size="lg"
         show={show}
         onHide={handleClose}
         aria-labelledby="contained-modal-title-vcenter"
@@ -276,13 +276,13 @@ function Example(props) {
             <thead>
               <tr>
                 <th>Numere de reclamation</th>
-                <th>Id responsable</th>
-                <th>Symptomes Observes</th>
-                <th>Modele</th>
+                <th>ID responsable</th>
+                <th>Symptômes observés</th>
+                <th>Modèle</th>
                 <th>Numéro de série S/N</th>
                 <th>Date</th>
                 <th>Etat de garantie</th>
-                <th>Status</th>
+                <th>Statut</th>
               </tr>
             </thead>
             <tbody>
@@ -331,7 +331,7 @@ function Example(props) {
         </Modal.Body>
         <Modal.Footer>
           <Button variant="danger" onClick={handleClose}>
-            Close
+            Fermer
           </Button>
         </Modal.Footer>
       </Modal>

@@ -7,17 +7,17 @@ import logo from "../images/logo.svg";
 import Caroussel from "../Caroussel";
 import Cookies from "js-cookie";
 
-
 export default function Home() {
   const history = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
     if (!Cookies.get("login")) {
       history("/login");
-  }}, []);
+    }
+  }, []);
   return (
     <div className="container">
-      <Caroussel/>
+      <Caroussel />
 
       <div className="content">
         <h1>RESPINNOV</h1>
@@ -73,7 +73,7 @@ export default function Home() {
             A propos
           </NavLink>
           <NavLink to="/reclamation" className="footer_menu_item">
-            Reclamation
+            Réclamation
           </NavLink>
           <NavLink to="/formulaire" className="footer_menu_item">
             Formulaire

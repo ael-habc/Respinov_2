@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Home.css";
 import logo from "../images/logo.svg";
-import './About.css'
+import "./About.css";
 
 export default function About() {
   return (
@@ -52,7 +52,7 @@ export default function About() {
             A Propos
           </NavLink>
           <NavLink to="/reclamation" className="footer_menu_item">
-            Reclamation
+            Réclamation
           </NavLink>
           <NavLink to="/formulaire" className="footer_menu_item">
             Formulaire
