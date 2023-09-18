@@ -34,8 +34,7 @@ export default function Products() {
     ) {
       alert("Please fill all the fields");
       return;
-    }
-    else {
+    } else {
       toast.success("Votre commande a été saisie avec succès");
     }
   };
@@ -50,7 +49,7 @@ export default function Products() {
   };
   return (
     <div className="pageProduct">
-      <Toaster/>
+      <Toaster />
       <ButtonGroup toggle>
         <Button primary active as="label" onClick={() => setToggle(true)}>
           <Radio autoComplete="off" />
@@ -113,7 +112,7 @@ export default function Products() {
           </label>
           <div className="input-group mb-3">
             <input
-              type="number"
+              type="text"
               className="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
@@ -141,7 +140,7 @@ export default function Products() {
           </label>
           <div className="input-group mb-3">
             <input
-              type="number"
+              type="text"
               className="form-control"
               id="basic-url"
               aria-describedby="basic-addon3"
@@ -165,7 +164,7 @@ export default function Products() {
             />
           </div>
           <label htmlFor="exampleFormControlTextarea1" className="form-label">
-          Type de P.R (pièce de rechange) :
+            Type de P.R (pièce de rechange) :
           </label>
           <select
             className="form-select"
@@ -180,7 +179,7 @@ export default function Products() {
             <option>Autre</option>
           </select>
           <label htmlFor="basic-url" className="form-label">
-          Quantité :
+            Quantité :
           </label>
           <div className="input-group mb-3">
             <input
@@ -208,7 +207,7 @@ export default function Products() {
             />
           </div>
           <label htmlFor="basic-url" className="form-label">
-          Statut :
+            Statut :
           </label>
           <select
             className="form-select"
@@ -226,12 +225,12 @@ export default function Products() {
           </select>
           <br />
           <button
-          type="submit"
-          className="btn btn-success btn-lg btn-block"
-          onClick={() => hundleSubmit()}
-        >
-          Valider
-        </button>
+            type="submit"
+            className="btn btn-success btn-lg btn-block"
+            onClick={() => hundleSubmit()}
+          >
+            Valider
+          </button>
         </div>
       )}
     </div>

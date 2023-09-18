@@ -83,7 +83,7 @@ export default function Reclamation() {
       </label>
       <div className="input-group mb-3">
         <input
-          type="number"
+          type="text"
           className="form-control"
           id="basic-url"
           aria-describedby="basic-addon3"
@@ -168,7 +168,7 @@ export default function Reclamation() {
       </label>
       <div className="input-group mb-3">
         <input
-          type="number"
+          type="text"
           className="form-control"
           id="basic-url"
           aria-describedby="basic-addon3"
@@ -275,7 +275,7 @@ function Example(props) {
           <Table striped bordered hover>
             <thead>
               <tr>
-                <th>Numéro de reclamation</th>
+                <th>Numéro de réclamation</th>
                 <th>ID responsable</th>
                 <th>Symptômes observés</th>
                 <th>Modèle</th>
