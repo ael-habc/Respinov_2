@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import Product from "../Card";
 import productList from "../ft_product.json";
 import "./Home.css";
@@ -14,7 +14,7 @@ export default function Home() {
     if (!Cookies.get("login")) {
       history("/login");
     }
-  }, []);
+  });
   return (
     <div className="container">
       <Caroussel />

@@ -43,19 +43,19 @@ function App() {
             </NavLink>
             <div>
               <NavLink to="/about">A Propos</NavLink>
-              {Cookies.get("login") == "bio" && (
+              {Cookies.get("login") === "bio" && (
                 <NavLink to="/product">Pieces de rechange</NavLink>
               )}
-              {Cookies.get("login") == "medcin" && (
+              {Cookies.get("login") === "medcin" && (
               <NavLink to="/reclamation">Reclamation</NavLink>
               )}
-              {Cookies.get("login") == "medcin" && (
+              {Cookies.get("login") === "medcin" && (
               <NavLink to="/formulaire">Formulaire</NavLink>
               )}
-              {Cookies.get("login") == "bio" && (
+              {Cookies.get("login") === "bio" && (
               <NavLink to="/historique">Liste des commandes</NavLink>
               )}
-              {Cookies.get("login") == "bio" && (
+              {Cookies.get("login") === "bio" && (
               <NavLink to="/HistoriqueDemaintenance">
                 Historique de maintenance
               </NavLink>
@@ -84,7 +84,7 @@ function App() {
           />
         </Routes>
       </BrowserRouter>
-      {Cookies.get("login") == "medcin" && <TarsChatbot />}
+      {Cookies.get("login") === "medcin" && <TarsChatbot />}
     </CartContext.Provider>
   );
 }
