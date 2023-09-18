@@ -21,6 +21,7 @@ export default function Reclamation() {
   const [etatGarantie, setEtatGarantie] = useState("");
   const [messageError, setMessageError] = useState("");
   const [symptomesAutre, setSymptomesAutre] = useState("");
+  const [status, setStatus] = useState("");
 
   const hundleSubmit = () => {
     if (
@@ -29,7 +30,8 @@ export default function Reclamation() {
       !date ||
       !numereReclamation ||
       !modele ||
-      !numeroSerie
+      !numeroSerie ||
+      !status
     ) {
       alert("Please fill all the fields");
       return;
@@ -48,6 +50,7 @@ export default function Reclamation() {
       numeroSerie,
       etatGarantie,
       messageError,
+      status,
     };
     setReclamation([...reclamation, newReclamation]);
     setIdResponsable("");
@@ -72,7 +75,7 @@ export default function Reclamation() {
     newReclamation.numeroSerie = 0;
     newReclamation.etatGarantie = "";
     newReclamation.messageError = "";
-    console.log(reclamation);
+    newReclamation.status = "";
   };
 
   return (
@@ -96,6 +99,7 @@ export default function Reclamation() {
         ID responsable
       </label>
       <MDBInput
+        type="text"
         wrapperClass="mb-4"
         id="form6Example3"
         placeholder="ID responsable"
@@ -107,6 +111,7 @@ export default function Reclamation() {
         Symptômes observés
       </label>
       <select
+        id="inputState"
         className="form-select"
         aria-label="Symptomes Observes"
         value={symptomes}
@@ -196,6 +201,7 @@ export default function Reclamation() {
         Etat de garantie
       </label>
       <select
+      id="inputState"
         className="form-select"
         aria-label="Niveau gravites"
         required
@@ -208,7 +214,7 @@ export default function Reclamation() {
       </select>
       <br />
       <label htmlFor="basic-url" className="form-label">
-      Pièce jointe (optionnel)
+        Pièce jointe (optionnel)
       </label>
       <div className="input-group mb-3">
         <input
@@ -234,6 +240,24 @@ export default function Reclamation() {
           Actions entreprises (optionnel)
         </label>
       </div>
+      <label htmlFor="exampleFormControlTextarea1" className="form-label">
+        Status
+      </label>
+      <select
+      id="inputState"
+        className="form-select"
+        aria-label="Niveau gravites"
+        required
+        value={status}
+        onChange={(e) => setStatus(e.target.value)}
+      >
+        <option value="1" defaultValue>
+          Initier
+        </option>
+        <option value="2">En attente</option>
+        <option value="4">En cours de traitement</option>
+        <option value="4">Résolu</option>
+      </select>
       <br />
       <div className="d-grid gap-3 col-4 mx-auto ">
         <Example id="test" />

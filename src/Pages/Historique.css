@@ -1,7 +1,15 @@
 .historique {
   margin: 20px;
 }
-input[type="text"] , input[type="date"], input[type="number"] , input[type="time"] , input[type="email"] , input[type="password"] , select , textarea,option {
+input[type="text"] , input[type="date"], input[type="number"] , input[type="time"] , input[type="email"] , input[type="password"] ,  textarea,input[type="file"] {
+  font-weight: bolder;
+  color: black;
+}
+input::placeholder {
+  font-weight: bolder;
+  color: black;
+}
+#inputState {
   font-weight: bolder;
   color: black;
 }

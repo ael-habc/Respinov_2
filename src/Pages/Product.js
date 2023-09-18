@@ -167,6 +167,7 @@ export default function Products() {
             Type de P.R (pièce de rechange) :
           </label>
           <select
+            id="inputState"
             className="form-select"
             aria-label="Symptomes Observes"
             value={type}
@@ -210,6 +211,7 @@ export default function Products() {
             Statut :
           </label>
           <select
+          id="inputState"
             className="form-select"
             aria-label="Symptomes Observes"
             value={statut}
