@@ -135,10 +135,11 @@ export default function Reclamation() {
           <textarea
             className="form-control"
             placeholder="Symptomes Observes"
-            id="floatingTextarea two"
+            id="floatingTextarea"
             value={symptomesAutre}
             onChange={(e) => setSymptomesAutre(e.target.value)}
           ></textarea>
+          <label htmlFor="floatingTextarea">Symptômes observés</label>
         </div>
       ) : null}
       <br />
@@ -149,7 +150,7 @@ export default function Reclamation() {
           value={messageError}
           onChange={(e) => setMessageError(e.target.value)}
         ></textarea>
-        <label id="two" htmlFor="floatingTextarea">Message d'erreur (optionnel)</label>
+        <label id="two" htmlFor="floatingTextarea" id="floatingTextarea">Message d'erreur (optionnel)</label>
       </div>
       <br />
       <label htmlFor="basic-url" className="form-label">
