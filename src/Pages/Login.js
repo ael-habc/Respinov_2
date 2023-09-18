@@ -62,7 +62,7 @@ function App() {
             <MDBCardBody className="p-5">
               <MDBInput
                 wrapperClass="mb-4"
-                label="Se connecter"
+                label="login"
                 id="form1"
                 type="text"
                 value={nom}
@@ -82,7 +82,7 @@ function App() {
                 className="btn btn-primary"
                 onClick={hundleLogin}
               >
-                Log in
+                Se connecter
               </button>
             </MDBCardBody>
           </MDBCard>
