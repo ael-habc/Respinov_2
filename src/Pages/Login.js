@@ -62,7 +62,7 @@ function App() {
             <MDBCardBody className="p-5">
               <MDBInput
                 wrapperClass="mb-4"
-                label="login"
+                label="Login"
                 id="form1"
                 type="text"
                 value={nom}
