@@ -44,7 +44,7 @@ function App() {
             <div>
               <NavLink to="/about">A Propos</NavLink>
               {Cookies.get("login") == "bio" && (
-                <NavLink to="/product">Piéces de rechange</NavLink>
+                <NavLink to="/product">Pieces de rechange</NavLink>
               )}
               {Cookies.get("login") == "medcin" && (
               <NavLink to="/reclamation">Reclamation</NavLink>

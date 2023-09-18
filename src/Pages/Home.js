@@ -67,7 +67,7 @@ export default function Home() {
         <div className="footer_menu">
           <h1>Menu</h1>
           <NavLink to="/product" className="footer_menu_item">
-            Piéces de rechange
+            Pièce de rechange
           </NavLink>
           <NavLink to="/about" className="footer_menu_item">
             A propos
