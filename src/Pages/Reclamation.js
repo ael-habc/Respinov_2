@@ -135,23 +135,21 @@ export default function Reclamation() {
           <textarea
             className="form-control"
             placeholder="Symptomes Observes"
-            id="floatingTextarea"
+            id="floatingTextarea two"
             value={symptomesAutre}
             onChange={(e) => setSymptomesAutre(e.target.value)}
           ></textarea>
-          <label htmlFor="floatingTextarea">Symptomes Observes</label>
         </div>
       ) : null}
       <br />
       <div className="form-floating">
         <textarea
           className="form-control"
-          placeholder="Impact sur le patient/Actions entreprises (optionnel)"
           id="floatingTextarea"
           value={messageError}
           onChange={(e) => setMessageError(e.target.value)}
         ></textarea>
-        <label htmlFor="floatingTextarea">Message d'erreur (optionnel)</label>
+        <label id="two" htmlFor="floatingTextarea">Message d'erreur (optionnel)</label>
       </div>
       <br />
       <label htmlFor="basic-url" className="form-label">
@@ -241,7 +239,7 @@ export default function Reclamation() {
         </label>
       </div>
       <label htmlFor="exampleFormControlTextarea1" className="form-label">
-        Status
+        Statut
       </label>
       <select
       id="inputState"

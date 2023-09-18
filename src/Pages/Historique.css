@@ -9,7 +9,12 @@ input::placeholder {
   font-weight: bolder;
   color: black;
 }
-#inputState {
+#inputState,#floatingTextarea {
+  font-weight: bolder;
+  color: black;
+}
+
+#two {
   font-weight: bolder;
   color: black;
 }
