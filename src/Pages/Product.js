@@ -35,7 +35,7 @@ export default function Products() {
       alert("Please fill all the fields");
       return;
     } else {
-      toast.success("Votre commande a été saisie avec succès");
+      toast.success("La commande a été saisie avec succès");
     }
   };
 

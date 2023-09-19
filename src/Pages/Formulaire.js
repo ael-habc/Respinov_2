@@ -6,7 +6,7 @@ import { Toaster ,toast} from "react-hot-toast";
 
 export default function Formulaire() {
   function submit() {
-    toast.success('merci de bien vouloir remplir le formulaire' )
+    toast.success('Le formulaire est envoyé avec succès' )
   }
   return (
     <div id="formulaire">

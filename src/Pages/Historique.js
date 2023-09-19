@@ -53,6 +53,7 @@ export default function Historique() {
             <th>Numéro de commande</th>
             <th>ID responsable </th>
             <th>Numéro de série S/N:</th>
+            <th>Modèle</th>
             <th>Type de P.R (pièce de rechange)</th>
             <th>Quantité</th>
             <th>Date</th>
@@ -65,6 +66,7 @@ export default function Historique() {
             <td>{item["Numéro de commande"]}</td>
             <td>{item["ID responsable"]}</td>
             <td>{item["Numéro de série S/N"]}</td> 
+            <td>{item["Modèle"]}</td>
             <td>{item["Type de P.R"]}</td>
             <td>{item["Quantité"]}</td>
             <td>{item["Date"]}</td>

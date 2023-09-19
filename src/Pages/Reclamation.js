@@ -36,7 +36,7 @@ export default function Reclamation() {
       alert("Please fill all the fields");
       return;
     }
-    toast.success("Votre réclamation a été saisie avec succès");
+    toast.success("La réclamation a été saisie avec succès");
 
     const newReclamation = {
       idResponsable,
@@ -150,7 +150,7 @@ export default function Reclamation() {
           value={messageError}
           onChange={(e) => setMessageError(e.target.value)}
         ></textarea>
-        <label id="two" htmlFor="floatingTextarea" id="floatingTextarea">Message d'erreur (optionnel)</label>
+        <label htmlFor="floatingTextarea" id="floatingTextarea two">Message d'erreur (optionnel)</label>
       </div>
       <br />
       <label htmlFor="basic-url" className="form-label">
@@ -254,7 +254,7 @@ export default function Reclamation() {
           Initier
         </option>
         <option value="2">En attente</option>
-        <option value="4">En cours de traitement</option>
+        <option value="3">En cours de traitement</option>
         <option value="4">Résolu</option>
       </select>
       <br />
