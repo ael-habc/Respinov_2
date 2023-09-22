@@ -16,10 +16,10 @@ export default function Products() {
   const [idResponsable, setIdResponsable] = useState(0);
   const [numeroDeSerie, setNumeroDeSerie] = useState(0);
   const [modele, setModele] = useState("");
-  const [type, setType] = useState("");
+  const [type, setType] = useState("Dôme de clapet anti-retour");
   const [quantite, setQuantite] = useState(0);
   const [date, setDate] = useState("");
-  const [statut, setstatut] = useState("");
+  const [statut, setstatut] = useState("Intier");
 
   const hundleSubmit = () => {
     if (
