@@ -13,6 +13,7 @@ import Login from "./Pages/Login";
 import Historique from "./Pages/Historique";
 import HistoriqueDemaintenance from "./Pages/HistoriqueDemaintenance";
 import Cookies from "js-cookie";
+import ReclamationBio from "./Pages/ReclamationBio";
 import TarsChatbot from "./Pages/TarsChatbot";
 
 export const CartContext = createContext();
@@ -56,9 +57,13 @@ function App() {
               <NavLink to="/historique">Liste des commandes</NavLink>
               )}
               {Cookies.get("login") === "bio" && (
+              <NavLink to="/reclamationBio">LISTE DES RECLAMATIONS</NavLink>
+              )}
+              {Cookies.get("login") === "bio" && (
               <NavLink to="/HistoriqueDemaintenance">
                 Historique de maintenance
               </NavLink>
+
               )}
               <button
                 type="button"
@@ -77,6 +82,7 @@ function App() {
           <Route path="/reclamation" element={<Reclamation />} />
           <Route path="/formulaire" element={<Formulaire />} />
           <Route path="/historique" element={<Historique />} />
+          <Route path="/reclamationBio" element={<ReclamationBio />} />
           <Route path="/login" element={<Login />} />
           <Route
             path="/HistoriqueDemaintenance"
